@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=HeatEquation
+CMAKE_PROJECT_NAME:STATIC=HeatSolver
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,15 @@ HeatEquation_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 HeatEquation_SOURCE_DIR:STATIC=/home/oleg/CLionProjects/НИР
+
+//Value Computed by CMake
+HeatSolver_BINARY_DIR:STATIC=/home/oleg/CLionProjects/НИР/build
+
+//Value Computed by CMake
+HeatSolver_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+HeatSolver_SOURCE_DIR:STATIC=/home/oleg/CLionProjects/НИР
 
 //Value Computed by CMake
 NumericalMethods_BINARY_DIR:STATIC=/home/oleg/CLionProjects/НИР/build

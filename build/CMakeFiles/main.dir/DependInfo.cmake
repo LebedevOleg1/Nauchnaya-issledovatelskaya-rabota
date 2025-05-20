@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/oleg/CLionProjects/НИР/src/Mesh.cpp" "CMakeFiles/main.dir/src/Mesh.cpp.o" "gcc" "CMakeFiles/main.dir/src/Mesh.cpp.o.d"
+  "/home/oleg/CLionProjects/НИР/src/Solver.cpp" "CMakeFiles/main.dir/src/Solver.cpp.o" "gcc" "CMakeFiles/main.dir/src/Solver.cpp.o.d"
   "/home/oleg/CLionProjects/НИР/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )

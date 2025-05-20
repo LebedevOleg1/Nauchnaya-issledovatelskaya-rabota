@@ -4,6 +4,7 @@ main: \
   /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/crtbeginS.o \
   CMakeFiles/main.dir/src/main.cpp.o \
   CMakeFiles/main.dir/src/Mesh.cpp.o \
+  CMakeFiles/main.dir/src/Solver.cpp.o \
   /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/libstdc++.so \
   /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/libm.so \
@@ -41,6 +42,8 @@ main: \
 CMakeFiles/main.dir/src/main.cpp.o:
 
 CMakeFiles/main.dir/src/Mesh.cpp.o:
+
+CMakeFiles/main.dir/src/Solver.cpp.o:
 
 /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/../../../x86_64-linux-gnu/libstdc++.so:
 

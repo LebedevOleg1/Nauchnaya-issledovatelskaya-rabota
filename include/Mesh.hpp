@@ -1,29 +1,23 @@
 #pragma once
 #include "State.hpp"
-#include <cmath>
 
 class Mesh {
 private:
     int nx, ny;
     Float3 v_min, v_max;
     float hx, hy;
-    float alpha;
-    
-    void calculate_cell_centers();
 
 public:
-    ExtState data;
-    float dt;
+    ExtState* data;
 
-    // Геттеры для доступа к приватным полям
-    int get_nx() const { return nx; }
+    Mesh(int nx, int ny, Float3 min, Float3 max);
+    ~Mesh();
+
+    // Геттеры
     Float3 get_vmin() const { return v_min; }
+    Float3 get_vmax() const { return v_max; }
+    float* get_T_curr() { return data->curr->T; }
+    float* get_T_next() { return data->next->T; }
+    int get_nx() const { return nx; }
     float get_hx() const { return hx; }
-
-    Mesh(int nx, int ny, Float3 min, Float3 max, float alpha);
-    
-    void calculate_dt();
-    void apply_boundary_conditions();
-    void initialize_gaussian(float T0, float sigma);
-    void step();
 };
